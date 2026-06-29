@@ -17,8 +17,8 @@ AWS Partner Polaris Level 분석 MCP 서버. T&C 팀원들이 AI 어시스턴트
 ### 1. Clone
 
 ```bash
-git clone https://github.com/your-org/partner-polaris-mcp.git
-cd partner-polaris-mcp
+git clone https://github.com/twkim1122/polaris_mcp.git
+cd polaris_mcp
 ```
 
 ### 2. Install
