@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "partner-polaris-mcp"
+version = "1.0.0"
+description = "MCP Server for AWS Partner Polaris Level Analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "T&C Korea", email = "ktaewoo@amazon.com"}]
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+partner-polaris-mcp = "partner_polaris_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

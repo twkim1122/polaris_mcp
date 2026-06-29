@@ -1,0 +1,33 @@
+{
+  "regions": {
+    "APJ": {
+      "sub_regions": {
+        "Korea": ["South Korea"],
+        "Japan": ["Japan"],
+        "India": ["India", "Bangladesh", "Nepal", "Sri Lanka"],
+        "ANZ": ["Australia", "New Zealand"],
+        "ASEAN": ["Singapore", "Indonesia", "Malaysia", "Thailand", "Philippines", "Vietnam", "Myanmar", "Cambodia", "Pakistan"]
+      }
+    },
+    "AMER": {
+      "sub_regions": {
+        "NAMER": ["United States", "Canada"],
+        "LATAM": ["Brazil", "Mexico", "Colombia", "Argentina", "Chile", "Peru"]
+      }
+    },
+    "EMEA": {
+      "sub_regions": {
+        "UKI": ["United Kingdom", "Ireland"],
+        "Germany": ["Germany"],
+        "France": ["France"],
+        "MENAT": ["Saudi Arabia", "UAE", "Turkey", "Egypt"]
+      }
+    },
+    "GCR": {
+      "sub_regions": {
+        "China": ["China"],
+        "HKT": ["Hong Kong", "Taiwan"]
+      }
+    }
+  }
+}

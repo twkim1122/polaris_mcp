@@ -1,0 +1,39 @@
+{
+  "version": "2025-10",
+  "document_reference": "Partner Polaris_Oct 2025.docx",
+  "measurement_periods": ["TTM", "13-24 months ago"],
+  "tiers": {
+    "Select": {
+      "l2": {"min_certs": 5, "min_l2_pts": 5},
+      "l3": {"min_certs": 20, "min_l3_pts": 20}
+    },
+    "Advanced": {
+      "l2": {"min_certs": 10, "min_l2_pts": 10},
+      "l3": {"min_certs": 40, "min_l3_pts": 40}
+    },
+    "Premier": {
+      "l2": {"min_certs": 100, "min_l2_pts": 100},
+      "l3": {"min_certs": 400, "min_l3_pts": 400}
+    }
+  },
+  "point_formulas": {
+    "l2_pts": {
+      "ilt_seat": 1,
+      "certification": 1,
+      "sb_subscription_per_5": 1
+    },
+    "l3_pts": {
+      "int_plus_ilt_seat": 1,
+      "int_plus_certification": 1,
+      "hands_on_sb_per_5": 1
+    }
+  },
+  "int_plus_levels": ["Associate", "Professional", "Specialty"],
+  "active_cert_validity_years": 3,
+  "active_cert_policy": "supplemental_only",
+  "par_correlation": {
+    "l1_median_par_usd": 37971,
+    "l2_median_par_usd": 83381,
+    "l3_median_par_usd": 299994
+  }
+}
